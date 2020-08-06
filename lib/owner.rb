@@ -37,7 +37,7 @@ class Owner
   end
   
   def cats 
-    Cat.new(name, mood)
+    Cat.
   end
 
 end
