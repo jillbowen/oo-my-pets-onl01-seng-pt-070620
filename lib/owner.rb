@@ -37,7 +37,7 @@ class Owner
   end
   
   def cats 
-    Cat.Owner.name
+    Cat.name
   end
 
 end
