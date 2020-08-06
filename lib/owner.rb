@@ -37,7 +37,7 @@ class Owner
   end
   
   def cats 
-    Cats.all.collect do |
+    Cats.all
   end
 
 end
