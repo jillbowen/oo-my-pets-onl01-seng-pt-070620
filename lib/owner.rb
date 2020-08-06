@@ -37,7 +37,7 @@ class Owner
   end
   
   def cats 
-    Cat.new.each do |thing|
+    Cat.new(name, owner).each do |thing|
       thing
     end
   end
