@@ -67,6 +67,7 @@ class Owner
   def sell_pets
     self.dogs.each do |dog|
       dog.delete
+    end
   end
 
 end
