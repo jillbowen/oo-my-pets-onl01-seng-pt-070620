@@ -63,5 +63,9 @@ class Owner
   def feed_cats
     self.cats.each {|cat| cat.mood = "happy"}
   end
+  
+  def sell_pets
+    self.
+  end
 
 end
